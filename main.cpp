@@ -1,6 +1,8 @@
 #include <iostream>
 #include "Funciones.h"
 
+
+
 int main(int argc, char** argv) {
 	/*
 	//thread hiloTick(tick);
@@ -27,16 +29,8 @@ int main(int argc, char** argv) {
 	productos->insertarAlFinal(new Articulo("A02", 2, 3, "S", "ASD"));
 	productos->imprimir();
 	*/
-	
-<<<<<<< HEAD
-	clientes->buscarPorCodigo("001")->imprimir();
-=======
+
 	cout << "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<\n";
-	
-	cout << clientePrio("ABC S.A.");
-	
-	
->>>>>>> b790eb44e8e975718306a47f034ca7486ab4df60
 	
 	return 0;
 }

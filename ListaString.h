@@ -107,9 +107,7 @@ struct ListaString {
         return contador;
 	}
 	
-<<<<<<< HEAD
-
-=======
+	
 	int prioCliente(string _nombreCliente){
 		
 		NodoStr* tmp = pn;
@@ -125,5 +123,4 @@ struct ListaString {
 			tmp = tmp->siguiente;
 		}
 	}	
->>>>>>> b790eb44e8e975718306a47f034ca7486ab4df60
 };
